@@ -1,0 +1,85 @@
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Log files
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+/dist
+/build
+/coverage
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Operating system files
+ehthumbs.db
+Icon?
+
+# JetBrains IDEs
+*.iws
+*.ipr
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# .NET
+bin/
+obj/
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+vendor/bundle
+log/
+
+# Elixir
+deps/
+*.ez
+_build/
+.coverage
+
+# PHP
+vendor/
+
+# Go
+*.exe
+*.test
+*.out
+
+# Miscellaneous
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
